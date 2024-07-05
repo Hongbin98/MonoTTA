@@ -1,10 +1,10 @@
 import os
 
 class DatasetCatalog():
-    DATA_DIR = "/223010185/"
+    DATA_DIR = "/Your_Path/"
     DATASETS = {
         "kitti_train": {
-            "root": "dataset/weather_kitti/training/gaussian_noise_1/",
+            "root": "gaussian_noise_1/",
         },
         "kitti_test": {
             "root": "kitti/object/testing/",
