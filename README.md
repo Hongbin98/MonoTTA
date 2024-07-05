@@ -1,6 +1,6 @@
 #  🌠 MonoTTA
-This is the official project repository for the ECCV 2024 paper [Fully Test-Time Adaptation for Monocular 3D Object Detection]🔗(https://arxiv.org/abs/2405.19682v1) by
-Hongbin Lin, Yifan Zhang, Shuaicheng Niu, Shuguang Cui, Zhen Li
+This is the official project repository for *[Fully Test-Time Adaptation for Monocular 3D Object Detection]([https://arxiv.org/pdf/2110.04596.pdf](https://arxiv.org/abs/2405.19682v1))*（ECCV 2024).
+
 
 Monocular 3D object detection (Mono 3Det) aims to identify 3D objects from a single RGB image. However, existing methods often assume training and test data follow the same distribution, which may not hold in real-world test scenarios. To address the out-of-distribution (OOD) problems, we explore a new adaptation paradigm for Mono 3Det, termed Fully Test-time Adaptation. It aims to adapt a well-trained model to unlabeled test data by handling potential data distribution shifts at test time without access to training data and test labels. However, applying this paradigm in Mono 3Det poses significant challenges due to OOD test data causing a remarkable decline in object detection scores. This decline conflicts with the pre-defined score thresholds of existing detection methods, leading to severe object omissions (i.e., rare positive detections and many false negatives). Consequently, the limited positive detection and plenty of noisy predictions cause test-time adaptation to fail in Mono 3Det. 
 
