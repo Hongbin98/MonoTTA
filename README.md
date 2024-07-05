@@ -21,7 +21,7 @@ We recommend reproducing experiments of MonoFlex (https://github.com/zhangyp15/M
 
  pip install -r requirements.txt (of MonoFlex)
  ```
-2. Then, replace the ./model/backbone/DCNv2 with the corresponding our DCNv2 folder(i.e., for torch1.7.1) and run
+2. Then, replace the ./model/backbone/DCNv2 with the our DCNv2 folder(i.e., for torch1.7.1) and run
  ```
 cd model/backbone/DCNv2
 
