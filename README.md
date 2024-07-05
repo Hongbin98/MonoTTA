@@ -47,7 +47,7 @@ CUDA_VISIBLE_DEVICES=0 python tools/tta_monotta.py --config runs/monoflex.yaml -
 |     MonoFlex(Gaussian_Noise_1)      | Car | Pedestrian | Cyclist | Avg. |
 | :---------- | :--------------: | :-----------------------: | :-----------------------: | :-----------------------: | 
 | No adapt   | 4.82            | 0.23                    | 0.34    | 1.8 | 
-| MonoTTA (ours) | **23.42** | **7.05** | **3.60** | **11.36** | 
+| MonoTTA (ours) | **21.15** | **6.54** | **3.01** | **10.27** | 
 
 Note: The small difference between this repo and the main paper is due to the randomness in generating perturbed data. 
 
