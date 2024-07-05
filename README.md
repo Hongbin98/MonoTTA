@@ -11,7 +11,7 @@ MonoTTA consists of:
 ## Data Preparation
 Tianyi Cloud: https://cloud.189.cn/t/Jn2INvaQFJBr (Password: q7st)
 
-Google Drive: TODO
+Google Drive: https://drive.google.com/file/d/1Se_0wpGCV4-pEEmLVY59J_H1VkkjfWTX/view?usp=sharing
 
 ## Installation
 We recommend reproducing experiments of MonoFlex (https://github.com/zhangyp15/MonoFlex) due to its relatively stable performance
