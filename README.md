@@ -10,6 +10,7 @@ MonoTTA consists of:
 
 ## Data Preparation
 Tianyi Cloud: https://cloud.189.cn/t/Jn2INvaQFJBr (Password: q7st)
+
 Google Drive: TODO
 
 ## Installation
@@ -43,7 +44,7 @@ CUDA_VISIBLE_DEVICES=0 python tools/tta_monotta.py --config runs/monoflex.yaml -
  ```
 
 ## Results
-|     MonoFlex      | Car | Pedestrian | Cyclist | Avg. |
+|     MonoFlex(Gaussian_Noise_1)      | Car | Pedestrian | Cyclist | Avg. |
 | :---------- | :--------------: | :-----------------------: | :-----------------------: | :-----------------------: | 
 | No adapt   | 4.82            | 0.23                    | 0.34    | 1.8 | 
 | MonoTTA (ours) | **23.42** | **7.05** | **3.60** | **11.36** | 
