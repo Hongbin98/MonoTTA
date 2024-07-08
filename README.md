@@ -56,7 +56,9 @@ python setup develop
 CUDA_VISIBLE_DEVICES=0 python tools/plain_train_net.py --config runs/monoflex.yaml --ckpt YOUR_CKPT  --eval
 ```
 
-If you find that the environment above conflicts with your GPU server (e.g., conflicting CUDA or GCC versions), it is recommended to use Docker to build the environment:
+### --Docker Env--
+
+If you find that the environment above conflicts with your GPU server (e.g., conflicting cuda or gcc versions), it is recommended to use Docker to build the environment:
 
 ```
 cd docker/pytorch1.7.1_cu110
