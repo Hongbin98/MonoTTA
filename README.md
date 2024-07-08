@@ -56,6 +56,23 @@ python setup develop
 CUDA_VISIBLE_DEVICES=0 python tools/plain_train_net.py --config runs/monoflex.yaml --ckpt YOUR_CKPT  --eval
 ```
 
+If you find that the environment above conflicts with your GPU server (e.g., conflicting CUDA or GCC versions), it is recommended to use Docker to build the environment:
+
+```
+cd docker/pytorch1.7.1_cu110
+docker build -t monotta:pytorch1.7.1-cuda11.0 .
+```
+Then, you can run the built image ``monotta:pytorch1.7.1-cuda11.0" with a docker by
+```
+docker run --gpus all -it --shm-size=64g monotta:pytorch1.7.1-cuda11.0
+```
+or (with directory mounting)
+```
+docker run --gpus all -it --shm-size=64g -v /dir_local:/dir_docker monotta:pytorch1.7.1-cuda11.0
+```
+
+Next, you can continue configuring the environment in the Docker container mentioned above.
+
 ## Usage
 You can run MonoTTA by
  ```
