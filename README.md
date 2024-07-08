@@ -64,7 +64,7 @@ If you find that the environment above conflicts with your GPU server (e.g., con
 cd docker/pytorch1.7.1_cu110
 docker build -t monotta:pytorch1.7.1-cuda11.0 .
 ```
-Then, you can run the built image ``monotta:pytorch1.7.1-cuda11.0" with a docker by
+Then, you can initilize a docker container with the built image "monotta:pytorch1.7.1-cuda11.0" by
 ```
 docker run --gpus all -it --shm-size=64g monotta:pytorch1.7.1-cuda11.0
 ```
