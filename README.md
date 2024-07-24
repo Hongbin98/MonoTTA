@@ -1,5 +1,5 @@
 #  🌠 MonoTTA
-This is the official project repository for *[Fully Test-Time Adaptation for Monocular 3D Object Detection](https://arxiv.org/abs/2405.19682v1)*
+This is the official project repository for *[MonoTTA: Fully Test-Time Adaptation for Monocular 3D Object Detection](https://arxiv.org/abs/2405.19682v1)*
 
 ## Demo
 https://github.com/Hongbin98/MonoTTA/assets/23754668/1abee3cc-8620-4974-bdf5-d7b83f05512b
