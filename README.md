@@ -1,6 +1,11 @@
 #  🌠 MonoTTA
 This is the official project repository for *[MonoTTA: Fully Test-Time Adaptation for Monocular 3D Object Detection](https://arxiv.org/abs/2405.19682v1)*
 
+## News
+We have released more scenarios of KITTI-C, please check the following link
+
+Tianyi Cloud: [https://cloud.189.cn/t/aYZzumiUZrY3 （password：s9dc）]
+
 ## Demo
 https://github.com/Hongbin98/MonoTTA/assets/23754668/1abee3cc-8620-4974-bdf5-d7b83f05512b
 
@@ -28,7 +33,7 @@ MonoTTA consists of:
 - 2️⃣ Noise-guard adaptation: since high-score objects may be scarce, we develop a negative regularization term to exploit the numerous low-score objects via negative learning, preventing overfitting to noise and trivial solutions.
 
 ## Data Preparation
-Tianyi Cloud: https://cloud.189.cn/t/Jn2INvaQFJBr (Password: q7st)
+Tianyi Cloud: [https://cloud.189.cn/t/aYZzumiUZrY3 （password：s9dc）]
 
 Google Drive: https://drive.google.com/file/d/1Se_0wpGCV4-pEEmLVY59J_H1VkkjfWTX/view?usp=sharing
 
