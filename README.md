@@ -4,8 +4,6 @@ This is the official project repository for *[MonoTTA: Fully Test-Time Adaptatio
 ## News
 - We have released the full KITTI-C dataset in huggingface! Please check the link for more: [https://huggingface.co/datasets/anthemlin/kitti-c]
 
-- We have released more scenarios of KITTI-C, please check the following link: Tianyi Cloud: [https://cloud.189.cn/t/aYZzumiUZrY3 （password：s9dc）]
-
 ## Demo
 https://github.com/Hongbin98/MonoTTA/assets/23754668/1abee3cc-8620-4974-bdf5-d7b83f05512b
 
