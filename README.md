@@ -104,11 +104,13 @@ Please contact Hongbin Lin by [linhongbinanthem@gmail.com] if you have any quest
 ## Citation
 If our MonoTTA method or fully TTA for Monocular 3D Object Detection settings are helpful in your research, please consider citing our paper:
 ```
-@inproceedings{lin2024fully,
+@inproceedings{lin2025monotta,
   title={MonoTTA: Fully Test-Time Adaptation for Monocular 3D Object Detection},
   author={Lin, Hongbin and Zhang, Yifan and Niu, Shuaicheng and Cui, Shuguang and Li, Zhen},
-  booktitle = {European Conference on Computer Vision},
-  year = {2024}
+  booktitle={European Conference on Computer Vision},
+  pages={96--114},
+  year={2025},
+  organization={Springer}
 }
 ```
 
